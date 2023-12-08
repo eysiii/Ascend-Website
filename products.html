@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="pr-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="#"><i class="fa fa-bars" onclick="showMenu()"></i></a> 
+        </nav>
+
+        <h1>OUR PRODUCTS</h1>
+
+    </section>
+
+    <section class="sweet">
+
+        <div class="row">
+            <div class="sweet-col">
+                <h1>Sweet Home Elevator</h1>
+            </div>
+
+            <div class="sweet-col">
+                <img src="Products/Sweet Home/d1.png">
+                <img src="Products/Sweet Home/d3.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="commercial">
+  
+        <div class="row">
+
+            <div class="commercial-col">
+                <h1>Commercial Elevator</h1>
+            </div>
+
+            <div class="commercial-col">
+                <img src="Products/Commercial/standard23.png">
+                <img src="Products/Commercial/standard24.png">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="freight">
+  
+        <div class="row">
+            <div class="freight-col">
+                <h1>Freight Elevator</h1>
+            </div>
+
+            <div class="freight-col">
+                <img src="Products/Freight/freight.png">
+            </div>
+        </div>
+    </section>
+
+ <!----Footer-->
+
+ <section class="footer">
+    <h4>You May Contact Us At</h4>
+
+    <div class="row">
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+        <span> 
+            <h5>
+                <a href="https://www.facebook.com/ascendpluselevator">Ascend Plus Elevator and Escalator Corp.</a>
+            </h5>
+        </span>
+        </div>
+
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-envelope-o"></i></a> 
+            <span> 
+                <h5> 
+                    apeec308@gmail.com
+                </h5>
+            </span>
+        </div>
+    </div>
+
+
+
+<!----Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

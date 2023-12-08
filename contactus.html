@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="cnt-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="#"><i class="fa fa-bars" onclick="showMenu()"></i></a> 
+        </nav>
+        <h1>CONTACT  US</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3850.0033274733346!2d120.57489017426728!3d15.212984285349188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396ed40cb34b9b5%3A0x7f3a72700f9e356a!2sAscend%20Plus%20Elevator%20and%20Escalator%20Corp.%20-%20Mabalacat%20City!5e0!3m2!1sen!2sph!4v1701603576086!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <a href="#"><i class="fa fa-home"></i></a> 
+                    <span>
+                        <h5>0190 Casmor Phase 1</h5>
+                        <p>Mabalacat, Pampanga</p>
+                    </span>
+    
+                </div>
+
+                <div>
+                    <a href="#"><i class="fa fa-phone"></i></a> 
+                    <span>
+                        <h5>(045) 861 4375</h5>
+                        <p>Monday to Friday, 8AM to 5PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <a href="#"><i class="fa fa-envelope-o"></i></a> 
+                    <span>
+                        <h5>apeec308@gmail.com</h5>
+                        <p>You may email us your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <forma action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="contact" placeholder="Enter Your Contact Number" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!----Footer-->
+
+<section class="footer">
+    <h4>You May Contact Us At</h4>
+
+    <div class="row">
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+        <span> 
+            <h5>
+                <a href="https://www.facebook.com/ascendpluselevator">Ascend Plus Elevator and Escalator Corp.</a>
+            </h5>
+        </span>
+        </div>
+
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-envelope-o"></i></a> 
+            <span> 
+                <h5> 
+                    apeec308@gmail.com
+                </h5>
+            </span>
+        </div>
+    </div>
+
+
+
+<!----Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>

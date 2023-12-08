@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <a href="#"><i class="fa fa-bars" onclick="showMenu()"></i></a> 
+        </nav>
+
+        <h1>OUR COMPANY</h1>
+    </section>
+
+    <section class="aboutus">
+
+        <div class="row">
+            <div class="aboutus-col">
+                <img src="images/logo.png">
+            </div>
+
+            <div class="aboutus-col">
+                <p>ASCEND PLUS ELEVATOR & ESCALATOR CORPORATION is a corporation duly organized by elevator professionals from Philippines-Taiwan-Singapore 
+                   on May 2015 to offer the best quality products and services for all elevator and escalator needs.
+                </p>
+                <p>We are engaged in elevator and escalator industries for almost 16 years, with leading manufacturers and suppliers
+                   of elevator and escalator equipment.
+                </p>
+                <p>It is our commitment to insist for our employees in pursuing excellence and in leading the industry; to innovate our product and technology;
+                    listening to our customers and providing the most professional service that they deserve; quality delivery of services and goods. It is of utmost
+                    importance to give the best product and the best service that we can give.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h3>MISSION</h3>
+                <p>To be the one of the leading supplier of elevator and escalator equipment providing
+                    well-trained personnel and committing to equality and round the clock response and support
+                    to our client.
+                </p>
+            </div>
+
+            <div class="about-col">
+                <h3>VISION</h3>
+                <p>A company that is at par with the leading elevator supplier in the country,
+                    building up relationships with customers that would last, recognized for its 
+                    competence and quick action in tune to the needs of the customers.
+                </p>
+            </div>
+
+            <div class="about-col">
+                <h3>VALUES</h3>
+                <p>INTEGRITY - valuing the confidence, conviction and trust of our customers.</p>
+                <p>COMPETENCE - employing dependable and consistent technicians and personnel to give
+                    the satisfaction that our clients deserve.</p>
+                <p>INNOVATIONS - in partner with our esteemed suppliers and manufacturers, open
+                    to new ideas and things that will improve our quality of service.</p>
+                <p>EFFECTIVENESS - our company is a result - oriented company that set its sight on developments
+                    that will greatly enhance our success in meeting the needs of clients.</p>    
+            </div>
+        </div>
+    </section>
+
+    <section class="staff">
+        <h1>OUR STAFF</h1>
+
+        <div class="row">
+            <div class="staff-col">
+                <img src="images/staff2.jpg">
+            </div>
+
+        <div class="staff-col">
+                <img src="images/staff1.jpg">
+            </div>
+
+        <div class="staff-col">
+                <img src="images/staff3.jpg">
+            </div>
+        </div>
+    </section>
+
+<!----Footer-->
+
+<section class="footer">
+    <h4>You May Contact Us At</h4>
+
+    <div class="row">
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+        <span> 
+            <h5>
+                <a href="https://www.facebook.com/ascendpluselevator">Ascend Plus Elevator and Escalator Corp.</a>
+            </h5>
+        </span>
+        </div>
+
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-envelope-o"></i></a> 
+            <span> 
+                <h5> 
+                    apeec308@gmail.com
+                </h5>
+            </span>
+        </div>
+    </div>
+
+
+<!----Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

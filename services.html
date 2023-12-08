@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="ser-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="#"><i class="fa fa-bars" onclick="showMenu()"></i></a> 
+        </nav>
+        <h1>SERVICES WE PROVIDE</h1>
+    </section>
+
+    <section class="install">
+        <h1>INSTALLATION</h1>
+
+        <div class="row">
+            <div class="install-col">
+                <img src="images/installation.jpg">
+            </div>
+    
+            <div class="install-col">
+                <img src="images/installation1.jpg">
+            </div>
+    
+            <div class="install-col">
+                <img src="images/installation2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="maintenance">
+        <h1>PREVENTIVE MAINTENCANCE</h1>
+
+        <div class="row">
+            <div class="maintenance-col">
+                <img src="images/pm.jpg">
+            </div>
+    
+            <div class="install-col">
+                <img src="images/pm1.jpg">
+            </div>
+    
+            <div class="install-col">
+                <img src="images/pm2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="others">
+        <h1>OTHERS SERVICES WE PROVIDE</h1>
+
+        <div class="row">
+            <div class="others-col">
+                <p>Modernization</p>
+            </div>
+
+            <div class="others-col">
+                <p>Troubleshooting</p>
+            </div>
+
+            <div class="others-col">
+                <p>Dismantling</p>
+            </div>
+
+            <div class="others-col">
+                <p>Elevator Car Interior</p>
+            </div>
+        </div>
+    </section>
+
+<!----Footer-->
+
+<section class="footer">
+    <h4>You May Contact Us At</h4>
+
+    <div class="row">
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+        <span> 
+            <h5>
+                <a href="https://www.facebook.com/ascendpluselevator">Ascend Plus Elevator and Escalator Corp.</a>
+            </h5>
+        </span>
+        </div>
+
+        <div class="icon-col">
+            <a href="#"><i class="fa fa-envelope-o"></i></a> 
+            <span> 
+                <h5> 
+                    apeec308@gmail.com
+                </h5>
+            </span>
+        </div>
+    </div>
+
+
+
+<!----Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

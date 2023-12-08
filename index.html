@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa fa-times" onclick="hideMenu()"></i></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="#"><i class="fa fa-bars" onclick="showMenu()"></i></a> 
+        </nav>
+     <div class="text">
+        <h1> ASCEND PLUS ELEVATOR AND ESCALATOR CORP.</h1>
+        <p>THE BETTER CHOICE</p>
+     </div>      
+    </section>
+
+    <section class="part-head">
+        <h1>OUR PARTNERS</h1>
+    </section>
+
+    <section class="koyo">
+
+        <div class="row">
+            <div class="koyo-col">
+                <h1>KOYO</h1>
+                <p>KOYO has been a modern elevator and escalator manufacturer based in Kunshan, China with invested capital of 130 million
+                    US Dollars, and occupied area of 230,000 square meters. It is a comprehensive elevator manufacturer that integrates research
+                    & development, design, manufacture, sales, installation, maintenance, and retro-fitting into one combined solution.
+                </p>
+            </div>
+
+            <div class="koyo-col">
+                <img src="Brands/koyo/elevator/standard3.png">
+                <img src="Brands/koyo/elevator/standard4.png">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="aplus">
+
+        <div class="row">
+            <div class="aplus-col">
+                <h1>APLUS</h1>
+                <p>With the goal of delivering mobility and accessibility solutions to an underserved yet growing market of people with limited 
+                    physical mobility. The leading manufacturer who is specialized in designing and producing the elevator for disabled people. Our
+                    productions include vertical platform lifts, inclined wheelchair lifts, hoistway vertical platform lifts, curved stair lifts. We
+                    can produce the lifts based on customer's needings.
+                </p>
+            </div>
+
+            <div class="aplus-col">
+                <img src="Brands/aplus/chairlift.png">
+                <img src="Brands/aplus/chairlift1.png">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="liwin">
+
+        <div class="row">
+            <div class="aplus-col">
+                <h1>LIWIN</h1>
+                <p> Liwin Plus Commercial Elevator enables people who live at a fast pace to connect together. Distance as well as space are no
+                    longer barriers anymore. No matter where one is, people can get closer through the advancement of technology. There will be no
+                    boundary to limit people's living space.
+                </p>
+            </div>
+
+            <div class="liwin-col">
+                <img src="Brands/liwin/Panoramic/pano-1.png">
+                <img src="Brands/liwin/Panoramic/pano-2.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="fuji">
+
+        <div class="row">
+
+            <div class="fuji-col">
+                <h1>FUJI</h1>
+                <p>A professional elevator research and development, manufacturing plant. Produces different kinds of high quality, high standard elevators,
+                    such as passenger elevator, panoramic elevator, cargo elevator, home elevator, hospital elevator, and escalator moving walks. The factory adheres
+                    to the concept that "Quality First and Constantly Strive for the Perfection", designs and produces customer's own elevator.
+                </p>
+            </div>
+    
+            <div class="fuji-col">
+                <img src="Brands/fuji/Standard Elevator/2.png">
+                <img src="Brands/fuji/Standard Elevator/2 (a).png">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="row">
+
+            <div class="partners-col">
+                <img src="images/koyo.png">
+            </div>
+
+            <div class="partners-col">
+                <img src="images/fuji.png">
+            </div>
+
+            <div class="partners-col">
+                <img src="images/liwin.jpg">
+            </div>
+
+            <div class="partners-col">
+                <img src="images/aplus.png">
+            </div>
+        </div>
+    </section>
+
+
+<!----Footer-->
+
+    <section class="footer">
+        <h4>You May Contact Us At</h4>
+
+        <div class="row">
+            <div class="icon-col">
+                <a href="#"><i class="fa fa-facebook"></i></a> 
+            <span> 
+                <h5>
+                    <a href="https://www.facebook.com/ascendpluselevator">Ascend Plus Elevator and Escalator Corp.</a>
+                </h5>
+            </span>
+            </div>
+
+            <div class="icon-col">
+                <a href="#"><i class="fa fa-envelope-o"></i></a> 
+                <span> 
+                    <h5> 
+                        apeec308@gmail.com
+                    </h5>
+                </span>
+            </div>
+        </div>
+
+
+
+<!----Toggle Menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
